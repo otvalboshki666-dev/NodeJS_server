@@ -1,0 +1,19 @@
+{
+  "name": "my-server-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Русакова Саша",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
