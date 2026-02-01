@@ -1,19 +1,24 @@
 {
   "name": "my-server-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Проект с Telegram ботом для Октагона",
   "main": "index.js",
-  "author": "Русакова Саша",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "telegram": "node telegram-bot.js",
+    "telegram-dev": "nodemon telegram-bot.js"
   },
-  "keywords": [],
+  "keywords": ["telegram-bot", "octagon", "nodejs", "express"],
+  "author": "Русакова Александра Максимовна",  
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "node-telegram-bot-api": "^0.61.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.0.1"
   }
 }
